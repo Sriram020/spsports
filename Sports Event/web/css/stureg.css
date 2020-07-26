@@ -1,0 +1,103 @@
+/* 
+    Document   : style4
+    Created on : 9 Aug, 2018, 7:51:26 PM
+    Author     : Sriramkumar
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background:url(Desert.jpg);
+    background-size: cover;
+ }
+.registerbox
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 30px;
+    background: rgba(0,0,0,0.1);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+.registerbox h2
+{
+    margin: 0 0 30px;
+    padding: 2px;
+    color: #ff6600; 
+}
+.registerbox .inputbox
+{
+    position: relative;
+    
+}
+.registerbox .inputbox input
+{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #ff6600;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+    background: transparent;
+}
+.registerbox .inputbox label
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    letter-spacing: 2px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #ff6600;
+    pointer-events: none;
+    transition: 0.5s;
+}
+.registerbox .inputbox input:focus ~ label,
+.registerbox .inputbox input:valid ~ label
+{
+    top: -18px;
+    left: 0;
+    color: #00ffcc;
+    font-size: 13px;
+}
+.registerbox .drop select
+{
+
+    outline: none;
+   background: transparent;
+   color: #ff6600;
+   font-size: 16px;
+   font-family: sans-serif;
+   letter-spacing: 1px;
+   padding: 10px;
+   width: 300px;
+   border: none;
+   border-bottom: 1px solid;   
+}
+
+.registerbox input[type="submit"]
+{
+    background: transparent;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+    color: #fff;
+    background: #00ffcc;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+

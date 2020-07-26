@@ -1,0 +1,87 @@
+/* 
+    Document   : staffupd
+    Created on : 20 Aug, 2018, 6:32:38 PM
+    Author     : Sriramkumar
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img1.jpg);
+    background-size: cover;
+ }
+.update 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    padding: 70px;
+    background: rgba(0,0,0,0.1);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+.update h1
+{
+    margin: 0 0 30px;
+    padding: 2px;
+    color: #fff; 
+}
+.update .inputbox
+{
+    position: relative;
+    
+}
+.update .inputbox input
+{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+    background: transparent;
+}
+.update .inputbox label
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    letter-spacing: 2px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: 0.5s;
+}
+.update .inputbox input:focus ~ label,
+.update .inputbox input:valid ~ label
+{
+    top: -18px;
+    left: 0;
+    color: #00cc33;
+    font-size: 13px;
+}
+.update input[type="submit"]
+{
+    background: transparent;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+    color: #fff;
+    background: #00cc33;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+

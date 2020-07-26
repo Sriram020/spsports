@@ -1,0 +1,24 @@
+SMAP
+collegetourview_jsp.java
+JSP
+*S JSP
+*F
++ 0 collegetourview.jsp
+collegetourview.jsp
++ 1 connection.jsp
+connection.jsp
+*L
+5,2:53
+5#1,13:55
+17:13
+17,3:68
+19,5:71
+23,4:76
+7#0,30:79
+37,8:110
+44,2:118
+46,5:120,3
+51,3:135
+53,2:138
+54,9:140
+*E

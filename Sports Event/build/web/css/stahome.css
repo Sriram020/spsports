@@ -1,0 +1,48 @@
+/* 
+    Document   : stahome
+    Created on : 15 Aug, 2018, 10:55:49 AM
+    Author     : Sriramkumar
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    margin: 0;
+    padding: 0;
+}
+body
+{
+ background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Hydrangeas.jpg);
+ background-size: cover;
+}
+.main-nav {
+    margin: auto;
+    list-style: none;
+    margin-top: 30px;
+}
+.main-nav li
+{
+    float: left;
+    margin-left: 30px;
+    line-height: 40px;
+    display: inline-block;
+}
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
+.main-nav li ul li
+{
+    display: none;
+}
+.main-nav li:hover ul li
+{
+    display: block;
+}
+
